@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fincdigi/public_html/marketplace
+    - /bin/cp * $DEPLOYPATH
